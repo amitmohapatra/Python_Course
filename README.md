@@ -1,11 +1,11 @@
-#Python Installation:
+# Python Installation:
    1. Download Python from https://www.python.org/downloads/
    2. Installation - http://docs.python-guide.org/en/latest/starting/installation/
    3. Pycharm community edition download - https://www.jetbrains.com/pycharm/download/
    4. Anaconda Download - https://www.anaconda.com/download/
    5. Anaconda Installation - https://conda.io/docs/user-guide/install/index.html
    
-#Compiler vs Interpreter
+# Compiler vs Interpreter
   1. Compiler and Interpreter are two different ways to execute a program written in a programming or scripting language.
   2. A compiler takes entire program and converts it into object code which is typically stored in a file. The object code is also
      refereed as binary code and can be directly executed by the machine after linking. 
@@ -13,33 +13,33 @@
   3. An Interpreter directly executes instructions written in a programming or scripting language without previously converting them
      to an object code or machine code. Examples of interpreted languages are Perl, Python and Matlab.
 	 
-#Python	 
+# Python	 
   1. Python is an interpreted, interactive, object-oriented programming language.  
   2. It incorporates modules, exceptions, dynamic typing, very high level dynamic data types, and classes.  
   3. Python combines remarkable power with very clear syntax.
   
-#Static vs. dynamic:
+# Static vs. dynamic:
    Static | dynamic
    ------ | -------
    In a statically typed language, every variable name is bound both | In a dynamically typed language, every variable name is (unless it is null) bound only to an object.
    
-#Data types in Python
+# Data types in Python
   1. Every value in Python has a datatype. Since everything is an object in Python programming, data types are actually classes and
     variables are instance (object) of these classes.
 	  Ex . String, Number, List, Tupple, Set, Dictionary
   2. Conversion between data types possible.
   3. Strongly typed.
    
-#"Hello world" Example:
+# "Hello world" Example:
    print print "Hello World"   [2.*]
    print(print "Hello World")  [3.*]
    
-#Variable assignment
+# Variable assignment
    1. a = 5
    2. a, b, c = 5, 8.2, "Hello"  [Multiple assignments]
    3. x = y = z = "same" [Multi Variable assignments]
    
-#Numbers
+# Numbers
   1.  >>> a = 3
       >>> type(a)
       <type 'int'>
@@ -47,7 +47,7 @@
      >>> print isinstance(a,complex)
 	 True
 	 
-#String
+# String
   1. String is sequence of Unicode characters. We can use single quotes or double quotes to represent strings. Multi-line strings      
      can be denoted using triple quotes, ''' or """.
 
@@ -57,7 +57,7 @@
   2. slicing operator [ ] can be used with string. Strings are immutable.
   
      s = 'Hello world!'
-#List:
+# List:
    1. List is an ordered sequence of items. All the items in a list do not need to be of the same type.
       We can use the slicing operator [ ] on list.
    2. >>> a = [1, 2.2, 'python']
@@ -66,27 +66,27 @@
       >>> a[2]=4
       >>> a
       [1, 2, 4]
-#Tuple
+# Tuple
   1. Tuple is an ordered sequence of items same as list.The only difference is that tuples are immutable. Tuples once created cannot
      be modified.
   2. Tuples are used to write-protect data and are usually faster than list as it cannot change dynamically.
      >>> t = (5,'program', 1+3j)
   3. We can use the slicing operator [] to extract items but we cannot change its value.
 
-#Dictionary
+# Dictionary
   1. Dictionary is an unordered collection of key-value pairs.
   2. >>> d = {1:'value','key':2}
      >>> type(d)
      <class 'dict'>
 
-#Set
+# Set
    1. Set is an unordered collection of unique items. 
       Items in a set are not ordered.
    2. >>> a = {1,2,2,3,3,3}
       >>> a
      {1, 2, 3}
   
-#Conversion between data types
+# Conversion between data types
    1. >>> float(5)
       5.0
    2. >>> int(10.6)
@@ -104,7 +104,7 @@
    8. >>> tuple({5,6,7})
      (5, 6, 7)
 	 
-#if & elif & else
+# if & elif & else
     if x < 0:
 ...     print('Negative')
 ... elif x == 0:
@@ -114,12 +114,12 @@
 ... else:
 ...     print('More')
 
-#"for" or "while" Statements:
+# "for" or "while" Statements:
     words = ['cat', 'window', 'defenestrate']
     >>> for w in words:
         print w
 
-#break and continue Statements, and else Clauses on Loops:
+# break and continue Statements, and else Clauses on Loops:
     >>> for n in range(2, 10):
 ...         for x in range(2, n):
 ...             if n % x == 0:
@@ -134,14 +134,14 @@
 ...            continue
 ...        print "Found a number "+str(num)
 
-#Defining Functions
+# Defining Functions
     >>> def add(x):
     ...     return x * x
     ... 
     >>> add(5)
     25
 
-#pass Statements
+# pass Statements
     >>> def initlog(*args):
 ...         pass   # Remember to implement
 ...
@@ -202,7 +202,7 @@
    
    1. When a generator function is called, it returns a generator object without even beginning execution of the function. When next method is called for the first time, the function starts executing until it reaches yield statement. The yielded value is returned by the next call.
   	 
-#List Comprehensions
+# List Comprehensions
    >>> squares = []
    >>> for x in range(10):
    ...     squares.append(x**2)
@@ -221,7 +221,7 @@
    ...
    >>> combs
    
-#Buit In functions
+# Buit In functions
 
   1. #Enumerate
   
@@ -229,9 +229,9 @@
     for c, value in enumerate(my_list, 1):
        print c + ' : ' + value
 	   
-#Documentation Strings:
+# Documentation Strings:
   1. multi-line docstring
   2. # for inline
   
-#Coding Style
+# Coding Style
  1.PEP 8
